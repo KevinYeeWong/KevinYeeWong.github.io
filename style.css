@@ -1,0 +1,86 @@
+body {
+  font: 12px sans-serif;
+}
+.tick > line {
+	fill: none;
+	stroke: black;
+}
+.tick > text {
+	fill: black;
+}
+.selected {
+	r: 10;
+}
+.selected2 {
+	stroke: orange;
+	fill:orange;
+}
+
+.hidden {
+	opacity: 0;
+}
+path.domain {
+	fill: none;
+	stroke-width: 2px;
+	stroke: black;
+}
+#wrapper {
+	clear:both;
+}
+#chart1 {
+    float:left;
+}
+#chart2{
+	float:left;
+}
+#chart3 {
+	float:left;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.brush .extent {
+	fill-opacity: .1;
+	stroke: #fff;
+	shape-rendering: crispEdges;
+}
+.legends5 {
+    float:left;
+    margin-right: 1em;
+}
+div.a {
+  transform: translate(-200px,0px);
+}
+
+div.b {
+  transform: translate(100px,130px);
+}
+
+div.c {
+  transform: translate(0px,200px);
+}
+h3 {
+    margin-top: 15px;
+}
+.race-name {
+    margin: 0 !important;
+}
+
+.key-dot {
+    display: inline-block;
+    height: 10px;
+    margin-right: .5em;
+    width: 10px;
+}
+
+.legend {
+    margin-right:20px;
+}
+
+.d { background: #EC5f67;}
+.e { background: #F99157;}
+.f { background: #FAC863;}
+.g { background: #99C794;}
+.h { background: #5FB3B3;}
+.i { background: #6699CC;}
+.j { background: #C594C5;}
+.k { background: #AB7967;}
